@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lamparina</title>
+
+    <script>
+        function acendelamparina() {
+            document.getElementById("luz").src = "./lampada-acesa.jpg";
+        }
+
+        function apagalamparina() {
+            document.getElementById("luz").src = "./lampada-apagada.jpg";
+        }
+
+        function quebralamparina() {
+            document.getElementById("luz").src = "./lampada-quebrada.jpg";
+        }
+
+        function botaoligado() {
+            document.getElementById("botao").src = "./botaovd.jpg";
+        }
+
+        function botaodesligado() {
+            document.getElementById("botao").src = "./vermelho.png";
+        }
+    </script>
+</head>
+
+<body>
+    <h1> manipulação da lamparina </h1>
+    <img src="./lampada-apagada.jpg" id="luz" onmousemove="acendelamparina()" onmouseout="apagalamparina()" onclick="quebralamparina()">
+    <img src="./botaovd.jpg" id="botao" onmousedown="botaoligado()" onclick="botaodesligado()">
+
+    <style>
+        #botao {
+            height: 20%;
+            width: 25%;
+        }
+    </style>
+
+</body>
+
+</html>
