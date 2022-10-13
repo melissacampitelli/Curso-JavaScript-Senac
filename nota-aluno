@@ -36,4 +36,4 @@
              alert("você foi reprovado:" + aluno + " como nota: " + notas)
          }
          
-         <script/>
+         </script>
