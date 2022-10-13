@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+
+    <style>
+        #id {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script>
+        function slide1() {
+            document.getElementById("id").src = "./backgroun1.jpg";
+            setTimeout("slide2()", 3000)
+            document.getElementById("aId").href = "";
+        }
+
+        function slide2() {
+            document.getElementById("id").src = "./background2.jpg";
+            setTimeout("slide3()", 3000)
+            document.getElementById("aId").href = "";
+        }
+
+        function slide3() {
+            document.getElementById("id").src = "./background3.jpg";
+            setTimeout("slide1()", 3000)
+            document.getElementById("aId").href = "";
+        }
+    </script>
+</head>
+
+<body onload="slide1()">
+
+    <a id="aId"><img id="id"></a>
+
+</body>
+
+</html>
