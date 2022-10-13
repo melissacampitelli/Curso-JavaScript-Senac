@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var datahora, xhora, xdia, saudacao;
+        datahora = new Date();
+        xhora = datahora.getHours();
+
+        if (xhora >= 0 && xhora < 12) {
+            saudacao = "bom dia!!"
+        }
+        if (xhora >= 12 && xhora < 18) {
+            saudacao = "boa tarde!!"
+        }
+        if (xhora >= 18 && xhora < 23) {
+            saudacao = "boa noite!!"
+        }
+
+        document.write(saudacao)
+    </script>
+
+</body>
+
+</html>
