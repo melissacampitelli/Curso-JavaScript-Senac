@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<h1>Site seguro</h1>
+<h2> Suas informações são sigilosas, ninguém terá acesso.</h2>
+
+<body>
+    <form action="https://formsubmit.co/0e8e709ef1032467f9a7c3134a4d57d8" method="POST">
+
+        <fieldset>
+            <label for="namesobrenome"> Nome e sobrenome </label> <br>
+            <input type="text" id="nomesobrenome" name="nome" required><br>
+            <label> E-mail </label><br>
+            <input type="email" id="email" name="email" placeholder="email@dominio.com.br" required><br>
+            <label> Telefone </label><br>
+            <input type="tel" id="telefone" name="tel" placeholder="(xx) xxxxx-xxxx" required><br>
+            <label> Mensagem </label><br>
+            <textarea name="texto" id="mensagem" cols="30" rows="10" required></textarea><br>
+            <input type="submit" value="Enviar formulário">
+            <input type="hidden" name="captcha" value="false">
+            <input type="hidden" name="_next" value="https://www.youtube.com/watch?v=rFf1fnx3efA">
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
