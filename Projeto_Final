@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Melissa</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        #logo {
+            height: 110px;
+        }
+        
+        nav ul a {
+            color: black;
+            font-size: 20px;
+            padding-top: 25px;
+            margin-top: 25px;
+            margin-top: 25px;
+            font-weight: 600;
+        }
+        
+        #foto {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!--Barra de navegação-->
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">
+                <img id="logo" src="cloud-akatsuki-logo-17E3DF7FAC-seeklogo.com.png" alt=""></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="https://www.adorocinema.com/series/serie-3473/">Conheça mais sobre Naruto </a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- Final da barra de navegação -->
+    <!--inicio do slider-->
+    <div>
+        <style>
+            #id {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <script>
+            function slide1() {
+                document.getElementById("id").src = "./raposa.jpg";
+                setTimeout("slide2()", 3000)
+                document.getElementById("aId").href = "";
+            }
+
+            function slide2() {
+                document.getElementById("id").src = "./madara2.jpg";
+                setTimeout("slide3()", 3000)
+                document.getElementById("aId").href = "";
+            }
+
+            function slide3() {
+                document.getElementById("id").src = "./lg.jpg";
+                setTimeout("slide1()", 3000)
+                document.getElementById("aId").href = "";
+            }
+        </script>
+        </head>
+
+        <body onload="slide1()">
+
+            <a id="aId"><img id="id"></a>
+            <div class="row">
+                <!-- saudação-->
+
+                <script>
+                    var datahora, xhora, xdia, dia, mes, ano, saudacao;
+                    datahora = new Date();
+                    xhora = datahora.getHours();
+
+                    if (xhora >= 0 && xhora < 12) {
+                        saudacao = "bom dia!!"
+                    }
+                    if (xhora >= 12 && xhora < 18) {
+                        saudacao = "boa tarde!!"
+                    }
+                    if (xhora >= 18 && xhora < 23) {
+                        saudacao = "boa noite!!"
+                    }
+
+                    alert(saudacao)
+                </script>
+                <!--card 1-->
+
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="naruto-uzumaki-0_cke (1).webp">
+                            <span class="card-title"><b>Naruto clássico</b></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Naruto uzumaki da vilha da folha, foi rejeitado por tudo e todos, mesmo assim, ele nunca desistiu. Confira abaixo como ele superou: </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://www.crunchyroll.com/pt-br/naruto"> Disponível na crunchyroll</a>
+                        </div>
+                    </div>
+                </div>
+                <!--card 2-->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="shippuden.jpg">
+                            <span class="card-title"><B>Naruto Shippuden</B></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Nesta fase Naruto já está adolescente, ele se torna mais poderoso e não se abala com facilidade. Além disso, ele passa por desavenças </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://www.crunchyroll.com/pt-br/naruto-shippuden">Também disponível na crunchyroll</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card 3-->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="boruto.png">
+                            <span class="card-title">Boruto</span>
+                        </div>
+                        <div class="card-content">
+                            <p><b>⚠️ALERTA SPOILER⚠️</b> Naruto teve um filho e ele se chama Boruto, por isso não fique triste quando terminar o Shippuden, você pode acompanhar boruto.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://www.crunchyroll.com/pt-br/boruto-naruto-next-generations?utm_source=paid_cr&utm_medium=google-search&utm_campaign=conversion&utm_term=crunchyroll&referrer=paid_cr_google-search_conversion&gclid=EAIaIQobChMIpr_U7O7p-gIVSeZcCh38pwPgEAAYASADEgIgivD_BwE">Veja também na Crunchyroll</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!--formulário-->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+    <h3>Preencha para mais informações sobre naruto</h13>
+        <h4> </h4>
+
+        <body>
+            <form action="https://formsubmit.co/0e8e709ef1032467f9a7c3134a4d57d8" method="POST">
+
+                <fieldset>
+                    <label for="namesobrenome"> Nome e sobrenome </label> <br>
+                    <input type="text" id="nomesobrenome" name="nome" required><br>
+                    <label> E-mail </label><br>
+                    <input type="email" id="email" name="email" placeholder="email@dominio.com.br" required><br>
+                    <label> Telefone </label><br>
+                    <input type="tel" id="telefone" name="tel" placeholder="(xx) xxxxx-xxxx" required><br>
+                    <label> Mensagem </label><br>
+                    <textarea name="texto" id="mensagem" cols="30" rows="10" required></textarea><br>
+                    <input type="submit" value="Enviar formulário">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://www.youtube.com/watch?v=aJRu5ltxXjc">
+
+                </fieldset>
+            </form>
+
+
+
+            <!--Rodape-->
+            <footer class="page-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="white-text">naruto</h5>
+                            <p class="grey-text text-lighten-4">naruto é vida!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Rodape 2-->
+                <div class="footer-copyright">
+                    <div class="container">
+                        ©️ 2022 todos direitos reservados por mim.
+                        <a class="grey-text text-deep-orange darken-4 right" href="#!">More Links</a>
+                    </div>
+                </div>
+            </footer>
+            <script>
+                //para bloquear o botão direito
+                document.addEventListener('contextmenu', event => event.preventDefault());
+            </script>
+
+        </body>
+
+    </html>
